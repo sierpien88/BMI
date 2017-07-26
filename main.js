@@ -43,15 +43,14 @@
 		
 		wynik = a/Math.pow(b,2);
 		wynikAll = wynik.toFixed(2);
-		document.getElementById("wynik").innerHTML = wynikAll;
+		document.getElementById("wynik2").innerHTML = wynikAll;
 		return wynikAll;
 	}
 
 	}
 	
 	function norm(a,b){
-		var liczby = number(a,b)
-		<!-- document.getElementById("wynik2").innerHTML = liczby; -->
+		var liczby = number(a,b);; 
 	if(liczby<18.5){
 		document.getElementById("wynik").innerHTML = "Jesteś za chuda";
 	}
